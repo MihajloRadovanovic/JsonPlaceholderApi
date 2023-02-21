@@ -1,0 +1,137 @@
+With method GET check the http response of API for parameter posts
+
+Pre-requirements
+Api client (https://jsonplaceholder.typicode.com/posts)
+Postman is opened
+
+Steps
+
+Chose the method GET in Postman
+Enter the URL of API to test
+Send the request
+
+Expected result
+Https response is 200-OK
+------------------------------------------------------------------------
+With method GET check the http response of API for parameter comments
+
+Pre-requirements
+Postman is opened
+Api client (https://jsonplaceholder.typicode.com/comments)
+
+Steps
+Chose the method GET in Postman
+Enter the API client
+Send the request
+
+Expected result
+Https response is 200-OK
+
+-----------------------------------------------------------------------
+
+With method GET check the http response of API for parameter photos
+
+Pre-requirements
+Postman is opened
+Api client (https://jsonplaceholder.typicode.com/photos)
+
+Steps
+Chose the method GET in Postman
+Enter the API client
+Send the request
+
+Expected result
+Https response is 200-OK
+
+---------------------------------------------------------------
+
+With method GET check the http response of API for parameter comments?postId=1
+
+Pre-requirements
+Postman is opened
+Api client ( https://jsonplaceholder.typicode.com/comments?postId=1)
+
+Steps
+Chose the method GET in Postman
+Enter the API client
+Send the request
+
+Expected result
+Https response is 200-OK
+
+---------------------------------------------------------------
+
+Check if the JSON body is not empty for parameter posts
+
+Pre-requirements
+Postman is opened
+Api client (https://jsonplaceholder.typicode.com/posts)
+
+Steps
+Chose the method GET in Postman
+Enter the API client
+Send the request
+
+Expected result
+The JSON body contains list of objects
+
+-------------------------------------------------------------
+
+Check if the JSON body is not empty for parameter comments
+
+Pre-requirements
+Postman is opened
+Api client (https://jsonplaceholder.typicode.com/comments)
+
+Steps
+Chose the method GET in Postman
+Enter the API client
+Send the request
+
+Expected result
+The JSON body contains list of objects
+
+---------------------------------------------------------------
+
+Check if the JSON body is not empty for parameter photos
+
+Pre-requirements
+Postman is opened
+Api client (https://jsonplaceholder.typicode.com/photos)
+
+Steps
+Chose the method GET in Postman
+Enter the API client
+Send the request
+
+Expected result
+The JSON body contains list of objects
+
+-----------------------------------------------------------------------------
+
+Check if the JSON body is not empty for parameter comments?postId=1
+
+Pre-requirements
+Postman is opened
+Api client (https://jsonplaceholder.typicode.com/comments?postId=1 )
+
+Steps
+Chose the method GET in Postman
+Enter the API client
+Send the request
+
+Expected result
+The JSON body contains list of objects
+
+--------------------------------------------------------------------------------
+
+After deserialization of JSON body check the number of objects for parameter postId=1
+
+Pre-requirement
+Api client (https://jsonplaceholder.typicode.com/comments?postId=1)
+
+Steps
+Deserialize the JSON body for parameter postId=1
+
+Expected result
+The number of objects is 5
